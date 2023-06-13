@@ -1,0 +1,2 @@
+#!/bin/bash
+COUNT=$(echo $PATH | tr ":" "\n" | wc -l)
