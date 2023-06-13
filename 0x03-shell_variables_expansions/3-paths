@@ -1,2 +1,2 @@
 #!/bin/bash
-COUNT=$(echo $PATH | tr ":" "\n" | wc -l)
+echo $((` echo $PATH | grep -o ":/" | wC -1`+ 1))
